@@ -38,7 +38,7 @@ mongoose.connect(DB, {
 
 // default route
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to Humayun Product app"});
+    res.json({"message": "Welcome to Aminul Islam Bulbul Product app"});
 });
 
 // listen on port 3000
